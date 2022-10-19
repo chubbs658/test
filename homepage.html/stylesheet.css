@@ -1,0 +1,343 @@
+    html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    }
+
+    *{
+    margin: 0;
+    padding: 0;
+   }
+
+   .homepage-body {
+    background: url(images/background1.jpg);
+    background-position: center;
+    background-size: cover;
+    max-height: 100vh;
+    position: relative;
+    isolation: isolate;
+    }
+
+    
+   .homepage-body::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(134, 184, 140);
+    opacity: .3;
+   }
+
+    header, footer, .footer-container-div {
+        background: rgb(53, 167, 68);
+    }
+
+
+   .header-container-div::after, .footer-container-div::after {
+    content: '';
+    display: table;
+    clear: both;
+   }
+
+   .logo-image {
+    width: 5rem;
+    max-height: 5rem;
+    margin: 1rem;
+    float: left;
+   }
+
+   nav {
+    float: right;
+   }
+
+   nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    }
+
+   nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 1rem;
+   }
+
+   .email-icon, .instagram-icon, .twitter-icon {
+    margin: 0.5rem;
+    width: 2rem;
+    max-height: 2rem;
+   }
+
+      
+   .nav-homepage ul li::after, .footer-nav ul li::after {
+    content: '';
+    width: 0%;
+    height: .19rem;
+    background: rgb(79, 165, 214);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+   }
+      
+   .nav-homepage ul li:hover::after, .footer-nav ul li:hover::after {
+    width: 100%
+   }
+
+    .homepage-paragraph-container {
+    color: white;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   }
+
+    .homepage-header {
+    font-size: 2.5rem;
+    margin-top: 2.185rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+   }
+
+    .homepage-paragraph {
+    margin: .63rem 0 1.9rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+   }
+
+   .learn-more-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: .63rem;
+    padding: 12px 34px;
+    background: transparent;
+    font-size: 0.8rem;
+    position: relative;
+    cursor: pointer; 
+   }
+
+   .learn-more-button:hover {
+    border: .065rem solid rgb(79, 165, 214);
+    background:rgb(126, 204, 25);
+    transition: 0.5s;
+    font-weight: bolder;
+   }
+
+   --------658meta------->
+
+   
+ .container-container {
+    display: block ;
+ }
+
+#about658metacontainer {
+    margin-inline: auto;
+    margin-top: 1rem;
+    padding: 0.1rem;
+    width: 90%;
+    border: 1px solid black;
+    overflow:auto;
+    background: rgb(194, 197, 190);
+}
+
+.about-img {
+    max-width: 40%;
+    height: 20rem;
+    padding-top: 2rem;
+}
+
+.about-658meta-div {
+    display: table-column;
+    float: right;
+    width: 50%;
+    padding-top: 2rem;
+    transform: translate(-50%, -0%);
+}
+
+.about-658meta-header {
+    text-decoration: underline;
+    text-align: center;
+    text-transform:uppercase;
+    padding: .5rem;
+    font-weight:bold;
+}
+
+.about-658meta-paragraph {
+    color:rgb(104, 100, 100);
+    font-weight: 400;
+    padding: 1rem;
+    text-align:left;
+}
+
+
+#solutionsandservicescontainer {
+    margin-inline: auto;
+    margin-top: 3rem;
+    padding: 0.1rem;
+    width: 90%;
+    overflow:auto;
+}
+
+.solutions-and-services-div {
+    display: table-column;
+    float: right;
+    width: 50%;
+    padding-top: 2rem;
+    transform: translate(-50%, -0%);
+}
+
+.solutions-and-services-header {
+    text-decoration: underline;
+    text-align: center;
+    text-transform:uppercase;
+    padding: .5rem;
+    font-weight:bold;
+}
+
+.solutions-and-services-paragraph {
+    color:rgb(104, 100, 100);
+    font-weight: 400;
+    padding: 1rem;
+    text-align:left;
+}
+
+
+#promotionscontainer {
+    margin-inline: auto;
+    margin-top: 3rem;
+    padding: 0.1rem;
+    width: 90%;
+    overflow:auto;
+}
+
+.promotions-div {
+    display: table-column;
+    float: right;
+    width: 50%;
+    padding-top: 2rem;
+    transform: translate(-50%, -0%);
+}
+
+.promotions-header {
+    text-decoration: underline;
+    text-align: center;
+    text-transform:uppercase;
+    padding: .5rem;
+    font-weight:bold;
+}
+
+.promotions-list {
+    list-style:disc;
+    padding: 1rem;
+    text-align:left;
+}
+
+.the-founders-container {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+h3 {
+    font-size: 1rem;
+    float: bottom;
+    color:rgb(104, 100, 100);
+    font-weight:400;
+    display:inline-flex;
+    margin: 1rem;
+    padding: 1rem;
+    align-items: center;
+
+
+}
+
+.Alec-div, .Mani-div, .Prakash-div {
+    display: inline-block;
+    text-align: center;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-right: 8rem;
+    padding-right: 2rem;
+    align-items: center;
+
+}
+
+
+img {
+    width: 9.75rem;
+    height: 9.75rem;
+    border-radius: 5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    color:rgb(104, 100, 100);
+    font-weight:200;
+    display:inline-flex;
+    margin: 2rem;
+    padding: 2rem;
+    align-items: center;
+    float: left;
+}
+.footer-logo-image{
+    width: 6rem;
+    max-height: 6rem;
+    margin: 1rem;
+    float: left;
+    margin-top: 3rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) { 
+    .hmtl {
+    font-size: 1rem;
+}
+ }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    .html {
+        font-size: 2rem; 
+    }
+}
+
+/* Medium devices (landscope tablets, 768px and up) */
+@media (min-width: 768px) {
+    .html {
+        font-size: 3rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .html {
+        font-size: 4rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .html {
+        font-size: 5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
