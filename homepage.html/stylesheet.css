@@ -295,6 +295,35 @@ h4 {
     margin-top: 3rem;
 }
 
+
+----------omniprint------>
+
+:root {
+    --gradient: linear-gradient(-45deg, #49e663, #23a6d5, #23d5ab, #d854ac);
+  
+  }
+  
+  .temp-body {
+    min-height: 100vh;
+    background-size: 150%;
+    background-image: linear-gradient(-45deg, #49e663, #23a6d5, #23d5ab, #d854ac);
+    animation: bg-animation 20s infinite;
+  }
+  
+  @keyframes bg-animation {
+    0% {background-position: left}
+    50% {background-position: right}
+    100% {background-position: left}
+  }
+  
+.temp-h1 {
+    font-size: 75px;
+    text-align: center;
+    text-decoration: #3333 underline;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) { 
     .hmtl {
