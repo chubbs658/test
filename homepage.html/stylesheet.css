@@ -78,10 +78,11 @@
     display: block;
     margin: auto;
     transition: 0.3s;
+    cursor:cell
    }
       
    .nav-homepage ul li:hover::after, .footer-nav ul li:hover::after {
-    width: 100%
+    width: 100%;
    }
 
     .homepage-paragraph-container {
@@ -121,14 +122,15 @@
    }
 
    .learn-more-button:hover {
-    border: .065rem solid rgb(79, 165, 214);
+    border: 2px solid rgb(79, 165, 214);
     background:rgb(126, 204, 25);
     transition: 0.5s;
-    font-weight: bolder;
+    font-weight: 300;
    }
 
-   --------658meta------->
+   --------658meta-------> 
 
+        
    
  .container-container {
     display: block ;
@@ -138,7 +140,7 @@
     margin-inline: auto;
     margin-top: 1rem;
     padding: 0.1rem;
-    width: 90%;
+    width: 75%;
     border: 1px solid black;
     overflow:auto;
     background: rgb(194, 197, 190);
@@ -220,6 +222,7 @@
     width: 50%;
     padding-top: 2rem;
     transform: translate(-50%, -0%);
+    padding-bottom: 5rem;
 }
 
 .promotions-header {
@@ -264,9 +267,10 @@ h3 {
     text-align: center;
     padding-top: 1rem;
     margin-top: 1rem;
-    margin-right: 8rem;
+    margin-right: 6rem;
     padding-right: 2rem;
     align-items: center;
+    margin-left: 7rem;
 
 }
 
@@ -295,7 +299,6 @@ h4 {
     margin-top: 3rem;
 }
 
-
 ----------omniprint------>
 
 :root {
@@ -323,7 +326,6 @@ h4 {
     margin-top: 10%;
     font-weight: 600;
 }
-
 
 ------------rugs------->
 
@@ -355,49 +357,291 @@ h4 {
     color: #333
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 600px) { 
-    .hmtl {
-    font-size: 1rem;
-}
+/* Extra small devices (phones 320-450px) */
+@media all and (min-width: 320px) and (max-width: 450px) { 
+
+    
+    header, footer, .footer-container-div {
+        background: rgb(53, 167, 68);
+        
+    }
+
+    nav {
+        display: inline-table;
+    }
+    .logo-image {
+        width: 3rem;
+        max-height: 3rem;
+        margin: .3rem;
+        float: left;
+    }
+      
+        
+     .homepage-header {
+          font-size: 1.2rem;
+          margin-top: 15rem;
+          font-weight: bold;
+          border: 1px solid white
+         }
+      
+     .homepage-paragraph {
+          margin: .2rem;
+          font-size: 0.5rem;
+          font-weight: 500;
+         }
+
+    
+   .learn-more-button {
+    display: inline-block;
+    text-decoration: rgb(28, 223, 38) underline;
+    color: rgb(197, 233, 39);
+    border: 2px solid rgb(141, 136, 136);
+    border-radius: .63rem;
+    padding: 6px 17px;
+    background: transparent;
+    font-size: 0.4rem;
+    position: relative;
+    cursor: pointer;
+    border-left: 1rem;
+    border-right: 1rem;
+    border-top: 3rem;
+    border-bottom: 3rem; 
+   }
+
+   nav ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 0.4rem;
+    padding: .2rem;
+    float:right;
+    font-size: .5rem
+   }
+
+   .email-icon, .instagram-icon, .twitter-icon {
+    margin: 0.5rem;
+    width: 1rem;
+    max-height: 1rem;
+   }
+
+      
+   
  }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) {
-    .html {
-        font-size: 2rem; 
+/* Small devices (large phones and small tablets 451-600px) */
+@media all and (min-width: 451px) and (max-width: 600px) {
+    nav {
+        font-size: .5rem;
     }
+
+    .logo-image {
+        width: 3.5rem;
+        max-height: 3.5rem;
+        margin: 1rem;
+        float: left;
+    }
+      
+        
+    .homepage-header {
+          font-size: 1.8rem;
+          margin-top: 15rem;
+          margin-bottom: 1.2rem;
+          font-weight: bold;
+         }
+      
+    .homepage-paragraph {
+          margin: .5rem 0 1rem;
+          font-size: 0.85rem;
+          font-weight: 500;
+         }
+
+    
+   .learn-more-button {
+    display: inline-block;
+    text-decoration: rgb(28, 223, 38) underline;
+    color: rgb(197, 233, 39);
+    border: 2px solid rgb(141, 136, 136);
+    border-radius: .63rem;
+    padding: 6px 17px;
+    background: transparent;
+    font-size: 0.9rem;
+    position: relative;
+    cursor: pointer;
+    border-left: 1rem;
+    border-right: 1rem;
+    border-top: 3rem;
+    border-bottom: 3rem; 
+   }
+
+   nav ul li {
+    list-style: none;
+    display: inline-table;
+    margin: .7rem;
+    padding: .5rem;
+    float:right;
+    font-size: .5rem
+   }
+
+   .email-icon, .instagram-icon, .twitter-icon {
+    margin: 0.5rem;
+    width: 1.5rem;
+    max-height: 1.5rem;
+   }
+      
+
 }
 
-/* Medium devices (landscope tablets, 768px and up) */
-@media (min-width: 768px) {
-    .html {
-        font-size: 3rem;
+/* Medium devices (large tablets and small laptops 601-991px) */
+@media all and (min-width: 601px) and (max-width: 991px) {
+    nav {
+        font-size: 1rem;
     }
+
+    .logo-image {
+        width: 5rem;
+        max-height: 5rem;
+        margin: 1rem;
+        float: left;
+    }
+        
+    .homepage-header {
+          font-size: 2.5rem;
+          margin-top: 15rem;
+          margin-bottom: 2rem;
+          font-weight: bold;
+          border: none;
+         }
+      
+     .homepage-paragraph {
+          margin: .63rem 0 1.9rem;
+          font-size: .8rem;
+          font-weight: 500;
+         }
+
+    
+    .learn-more-button {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            border: 1px solid white;
+            border-radius: .63rem;
+            padding: 12px 34px;
+            background: transparent;
+            font-size: 0.8rem;
+            position: relative;
+            cursor: pointer; 
+           }
+
+   nav ul li {
+    list-style: none;
+    display: inline-table;
+    margin: 1.2rem;
+    padding: .5rem;
+    float:right;
+    font-size: .9rem
+   }
+
+   .email-icon, .instagram-icon, .twitter-icon {
+    margin: 0.5rem;
+    width: 2rem;
+    max-height: 2rem;
+   }
+      
+      
+
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
-    .html {
-        font-size: 4rem;
+/* Large devices (laptops and desktops 992px and up) */
+@media all and (min-width: 992px) {
+    
+   .logo-image {
+    width: 5rem;
+    max-height: 5rem;
+    margin: 1rem;
+    float: left;
+   }
+
+   nav {
+    float: right;
+   }
+
+   nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
     }
-}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    .html {
-        font-size: 5rem;
-    }
-}
+   nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 1rem;
+   }
 
+   .email-icon, .instagram-icon, .twitter-icon {
+    margin: 0.5rem;
+    width: 2rem;
+    max-height: 2rem;
+   }
 
+      
+   .nav-homepage ul li::after, .footer-nav ul li::after {
+    content: '';
+    width: 0%;
+    height: .19rem;
+    background: rgb(79, 165, 214);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+    cursor:cell
+   }
+      
+   .nav-homepage ul li:hover::after, .footer-nav ul li:hover::after {
+    width: 100%;
+   }
 
+    .homepage-paragraph-container {
+    color: white;
+    width: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   }
 
+    .homepage-header {
+    font-size: 2.5rem;
+    margin-top: 2.185rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+   }
 
+    .homepage-paragraph {
+    margin: .63rem 0 1.9rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+   }
 
+   .learn-more-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: .63rem;
+    padding: 12px 34px;
+    background: transparent;
+    font-size: 0.8rem;
+    position: relative;
+    cursor: pointer; 
+   }
 
+   .learn-more-button:hover {
+    border: 2px solid rgb(79, 165, 214);
+    background:rgb(126, 204, 25);
+    transition: 0.5s;
+    font-weight: 300;
+   }
 
-
-
-
-
+    
+}  
