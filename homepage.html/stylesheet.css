@@ -45,6 +45,11 @@
     float: left;
    }
 
+    
+   .logo-image-temprugs, .logo-image-tempomniprint {
+    margin-left: 45%;
+   }
+
    nav {
     float: right;
    }
