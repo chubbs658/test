@@ -181,6 +181,11 @@
 }
 
 
+.whoarewe-span {
+    font-weight: 600;
+}
+
+
 #solutionsandservicescontainer {
     margin-inline: auto;
     margin-top: 3rem;
